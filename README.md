@@ -33,15 +33,21 @@ Une conclusion **directionnelle** n'est autorisée que pour un actif dont l'IC o
 
 **Track-record live.** Un scorecard confronte chaque base rate VIX *prédit* au *réalisé*, run après run. Le signal reste « verrouillé en contexte » tant qu'il n'a pas accumulé assez de calls **indépendants** (fenêtres non chevauchantes) sur plusieurs régimes de vol — c'est une performance mesurée qui remplace un niveau de confiance figé.
 
+➡️ **Explorer** : [un run complet (2026-09-01)](macro-quant/analysis/2026-09-01%20-%20Macro%20Quant%20Daily.md) · figures [scorecard](macro-quant/analysis/scorecard_2026-09-01.png) et [snapshot régime](macro-quant/analysis/daily/2026-09-01.png) · le [moteur Python](macro-quant/engine/) · le [schéma de base append-only](macro-quant/SCHEMA.md).
+
 ## 2. cockpit-rotation — cadrans de rotation de liquidité
 
 `cockpit-rotation/engine/` · figures et alertes dans `cockpit-rotation/analysis/`
 
 Cartographie de la rotation sectorielle (S&P 500, STOXX 600) et pays (Asie-Pacifique) via des cadrans momentum/force relative, avec détection de franchissement (alertes de croisement). Trois moteurs : `us_rotation`, `eu_rotation`, `asia_rotation`.
 
+➡️ **Cadrans** : [US](cockpit-rotation/analysis/us-rotation/us_rotation_latest.png) · [Europe](cockpit-rotation/analysis/eu-rotation/eu_rotation_latest.png) · [Asie](cockpit-rotation/analysis/asia-rotation/asia_rotation_latest.png) · exemple d'[alertes de croisement](cockpit-rotation/analysis/us-rotation/ALERTES%20rotation%20US.md) · le [moteur Python](cockpit-rotation/engine/).
+
 ## 3. macro-daily — la Couche 1 (exemple)
 
 `macro-daily/` contient **une** note quotidienne à titre d'illustration du format Couche 1 (mise en condition, niveaux, calendrier, watchlist actionnable). La section de suivi client a été retirée.
+
+➡️ **Lire** : [la note exemple (2026-09-01, sanitisée)](macro-daily/2026-09-01%20-%20Macro%20Daily%20%28exemple%20sanitise%29.md).
 
 ---
 
